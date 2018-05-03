@@ -8,6 +8,8 @@ Components Used:
     * Data Parsing      - Excel Data is parsed via OpenPyXl
     * Geo-coding        - GPS of location obtained using Google Maps API
     * DB                - Database used is SQLite
+
+NOTICE: IF A DATABASE ALREADY EXISTS, DO NOT RUN THIS SCRIPT WITHOUT BACKING UP THE DB.
 """
 
 from openpyxl import load_workbook
